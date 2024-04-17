@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Estate Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Explore Our Featured Properties</h1>
+    <p>Discover your dream home today</p>
+  </header>
+
+  <section class="property-listings">
+    <!-- Property Listings -->
+    <!-- Each property listing can be structured as a card -->
+    <div class="property-card">
+      <img src="./house.jpg" alt="Property 1">
+      <h2>Mansion Rata</h2>
+      <p>Beautiful 6 bedroom home with a pool and serene environment</p>
+      <button class="btn">Schedule Viewing</button>
+    </div>
+    <!-- Repeat for other properties -->
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Real Estate Agency. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
